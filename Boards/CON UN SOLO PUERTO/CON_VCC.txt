@@ -1,0 +1,19 @@
+{*DEVICE}
+NAME=74HC238
+{PREFIX=U}
+DATA=mm74hc238.pdf,,,,,Proteus CD,pdfs\digital
+{*PROPDEFS}
+{PINSWAP="Pin Swap List",HIDDEN STRING}
+{MODFILE=LISA Model File,READONLY STRING}
+{PACKAGE="PCB Package",PACKAGE,2,DIL16,SO16}
+{ITFMOD=Interface Model,HIDDEN STRING}
+{*INDEX}
+{MFR=}
+{DESC=3-to-8 Line Decoder Demultiplexer Inverting and Non-Inverting}
+{CAT=TTL 74HC series}
+{SUBCAT=Decoders}
+{*COMPONENT}
+{PINSWAP=E2,E3}
+{MODFILE=74XX238.MDF}
+{PACKAGE=DIL16}
+{ITFMOD=TTLHC}
